@@ -1,0 +1,95 @@
+body {
+    background-color: #4db6ba;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Get Schwifty', cursive; 
+    font-size: 3em; 
+    color: #66ff33; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    letter-spacing: 2px; 
+}
+
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.2);
+}
+
+.card-body {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #fff;
+}
+
+#pagination {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#pagination button {
+    color: #000000;
+    background-color: #007bff;
+    border: none;
+    padding: 8px 16px;
+    margin:  4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#pagination button:hover {
+    background-color: #da25aaa6;
+}
+
+#pagination button.active {
+    background-color: #605b5fc1;
+}
