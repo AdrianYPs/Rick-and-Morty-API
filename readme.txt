@@ -1,4 +1,5 @@
 
+
 Actividad 4
 CONSUMIENDO APIs REST
 Estudiante:
@@ -23,3 +24,6 @@ Bogotá D.C.
 
 dirección URL donde está desplegada la aplicación en el servidor
 http://localhost:3000
+
+Se debe esperar un momento despues de ingresar al link, ya que demora un poquito en cargar.
+https://adrianyps.github.io/Rick-and-Morty-API/
